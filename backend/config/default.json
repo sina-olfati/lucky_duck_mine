@@ -1,0 +1,7 @@
+{
+  "name": "backend-lucky",
+  "db": {
+    "address": "mongodb+srv://admin:m1a2h3d4i5@cluster0.csnaqaa.mongodb.net/nasim_test?retryWrites=true&w=majority"
+  },
+  "jwt_key": "sdfjhj234t2fwd0982i34rf23feoijf042SDF"
+}

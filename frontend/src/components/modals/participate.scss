@@ -1,0 +1,56 @@
+.custom-select {
+  position: relative;
+}
+
+.select-option {
+  padding-left: 30px; /* Add spacing for the image */
+}
+
+.option-image {
+  position: absolute;
+  left: 5px; /* Adjust the positioning of the image */
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px; /* Adjust the size of the image */
+  height: 20px;
+  object-fit: cover;
+  margin-right: 5px; /* Add spacing between the image and text */
+}
+
+.moreInfo {
+  margin-bottom: 10px;
+
+  h6 {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 140%;
+      color: #8C90B7;
+      display: inline;
+  }
+}
+
+.error1, .error2 {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  color: #8C90B7;
+  display: inline;
+  color: tomato;
+  // border: solid 1px red;
+  padding: 0;
+  margin: 0;
+  // display: none;
+}
+
+.error1 {
+  position: relative;
+  bottom: 15px;
+  // color: blue;
+}
+
+.hasError {
+  display: flex;
+}
+.noError {
+  display: none;
+}
